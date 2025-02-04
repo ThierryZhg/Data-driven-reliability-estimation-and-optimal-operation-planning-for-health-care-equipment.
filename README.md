@@ -36,9 +36,7 @@ The dataset provided by GE HC includes:
 ### **2. System-Level Reliability Analysis**
 - Applied statistical models to estimate system failure probability.
 - Used the `Fit_Everything` function from the **Reliability** package.
-- Identified **Loglogistic distribution** as the best fit, with:
-  - **α = 1649.25**  
-  - **β = 1.90175**  
+- Identified **Loglogistic distribution** as the best fit
 - Avoided overfitting by excluding complex Weibull Mixture models.
 
 ### **3. Component-Level Reliability Analysis**
